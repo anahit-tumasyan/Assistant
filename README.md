@@ -229,7 +229,6 @@ emergency_gui.py       emergency chat window
 tests/                 unit tests
 Includes/              the Gemma and Vosk models
 hand_landmarker.task   MediaPipe hand model
-old/                   the original files from before the clean-up, nothing uses them
 ```
 
 ## Credits
