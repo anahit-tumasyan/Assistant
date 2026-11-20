@@ -1,0 +1,13 @@
+# Use Python 3.12 - MediaPipe and PyTorch wheels are reliable there.
+torch>=2.4
+transformers>=4.56
+mediapipe>=0.10.14
+opencv-python>=4.8
+pyautogui>=0.9.54
+vosk>=0.3.44
+sounddevice>=0.4.6
+requests>=2.31
+websockets>=14
+
+# Offline text-to-speech on Linux/Windows (macOS uses its built-in `say`)
+pyttsx3>=2.90; sys_platform != "darwin"
